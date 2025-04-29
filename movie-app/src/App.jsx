@@ -1,16 +1,13 @@
+import "./App.css";
+import MovieCard from "./components/MovieCard";
+import Home from "./components/pages/Home";
 
-import './App.css'
-import MovieCard from './components/MovieCard';
 function App() {
-
-
   return (
     <>
-     <MovieCard movie={{title: 'Avatar', relase_date: '2023-10-10'}}/>
-     <MovieCard movie={{title: 'Avatar', relase_date: '2023-10-10'}}/>
-     <MovieCard movie={{title: 'Avatar', relase_date: '2023-10-10'}}/>
+      <Home />
     </>
-  )
+  );
 }
 
 export default App;
